@@ -34,7 +34,7 @@ class NewsWidget extends StatelessWidget {
           Text(
             articalModel.title,
             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
-            maxLines: 1,
+            maxLines: 3,
             overflow: TextOverflow.ellipsis,
           ),
           Text(
@@ -43,7 +43,7 @@ class NewsWidget extends StatelessWidget {
               fontSize: 16,
               color: Color.fromARGB(255, 110, 110, 110),
             ),
-            maxLines: 2,
+            maxLines: 4,
             overflow: TextOverflow.ellipsis,
           ),
 
